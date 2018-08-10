@@ -1,0 +1,2 @@
+# General Functions
+This is a general repository of functions / templates I've found myself needing & incorporating quite often. I make no claims to the functions herein (some were compiled from various sources), and I try to credit any source where applicable.
