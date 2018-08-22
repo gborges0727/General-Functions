@@ -16,7 +16,11 @@ git branch -D master
 git branch -m master 
 git push -f origin master 
 
+# Ignore spaces during merge
+ git merge -Xignore-space-change
+
 # Sources: 
 # https://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in-github
 # https://stackoverflow.com/questions/348170/how-to-undo-git-add-before-commit
 # https://stackoverflow.com/questions/2845731/how-to-uncommit-my-last-commit-in-git
+# https://stackoverflow.com/questions/9776527/merging-without-whitespace-conflicts
